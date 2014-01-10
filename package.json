@@ -1,0 +1,36 @@
+{
+  "name": "LinearAlgebra",
+  "version": "0.0.1",
+  "description": "Some simple utility functions for linear algebra",
+  "main": "LinearAlgebra.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jasmine-node test/spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rvega/linear-algebra-js.git"
+  },
+  "keywords": [
+    "linear",
+    "algebra",
+    "math",
+    "transformation",
+    "matrix",
+    "matrices",
+    "rotation"
+  ],
+  "author": "Rafael Vega <rvega@elsoftwarehamuerto.org>",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/rvega/linear-algebra-js/issues"
+  },
+  "homepage": "https://github.com/rvega/linear-algebra-js",
+  "devDependencies": {
+    "jasmine-node": "~1.12.0"
+  },
+  "dependencies": {
+  }
+}
